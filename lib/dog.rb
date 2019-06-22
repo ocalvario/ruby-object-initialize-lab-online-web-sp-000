@@ -5,11 +5,11 @@ def initialize(name)
   end
  
   def name=(name)
-    @name = name
+    @name = breed
   end
  
   def breed
-    @name
+    @breed
   end
   
 end
