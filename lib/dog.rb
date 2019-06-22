@@ -13,7 +13,7 @@ def initialize(name, breed)
     @name
   end
   
-  def breed=(breed)
+  def breed=(breed = "Mutt")
     @breed = breed
   end
  
